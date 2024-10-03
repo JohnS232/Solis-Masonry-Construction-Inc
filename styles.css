@@ -158,11 +158,8 @@
   }
 
   #navbar__logo {
-    overflow: hidden;
-    width: 100%;
-    white-space: normal;
     padding-left: 25px;
-    font-size: 1.5rem; /* Adjust font size for mobile */
+    font-size: 1rem; /* Adjust font size for mobile */
   }
 
   .navbar__toggle .bar {

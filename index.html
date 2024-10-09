@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solis Masonry And Construction Inc.</title>
+  
+  <!-- Bootstrap CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Google Fonts --> 
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-d5ZWywb5/YbCFwlqKZ3r/We1Qo54Q9uCZP5pj7q1O3FBNZKgGb+Fw9+0blbw8I6Nfs6Q1/1B0N+yJmg7Xr2fg==" crossorigin="anonymous" />
+  
+  <!-- Link to Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() { emailjs.init("FO3VbMBV-la7xfixE");  })(); // Replace 'YOUR_EMAILJS_PUBLIC_KEY' with your actual EmailJS Public Key. 
+  </script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+(function(){ emailjs.init({
+  publicKey: "FO3VbMBV-la7xfixE", }); })();
+</script>
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="#home" id="navbar__logo">Solis Masonry Construction Inc.</a>
+
+    <!-- Mobile menu toggle button (hamburger) -->
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <!-- Menu Items -->
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="#home" class="navbar__links" id="home-page">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#about" class="navbar__links" id="about-page">About</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#services" class="navbar__links" id="services-page">Services</a>
+      </li>
+      <li class="navbar__item">
+          <a href="#gallery" class="navbar__links" id="gallery-page">Gallery</a>
+        </li>
+      <li class="navbar__btn">
+        <a href="#contact-us" class="button" id="contact-page">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<div class="hero" id="home">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="https://raw.githubusercontent.com/JohnS232/Solis-Masonry-Construction-Inc/main/images/Homepage.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="hero__container">
+    <h1 class="hero__heading">Solis Masonry Construction Inc.</h1>
+    <p class="hero__description">Building Strong Foundations & Lasting Impressions. Expert Concrete & Stone Solutions for Your Home and Business.</p>
+    <p class="hero__description">We Offer Our Services In The Dallas Fort-Worth Area. Contact Us For A Free Estimate.</p>
+  </div>
+</div>
+
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <i class="fas fa-layer-group fa-5x"></i>
+      </div>
+      <div class="main__content">
+        <h1>Our Mission?</h1>
+        <p>We're the best in our field, and it's all thanks to the incredible relationships we've formed with our clients. Unlike our competitors, we're invested in developing a personal connection with each and every one of our customers, by providing quality service and being available to you 24/7.</p>
+        <a href="#contact-us" class="btn btn-primary main__btn">Schedule Appointment</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Services Section -->
+<div class="services" id="services">
+  <h1>Our Services</h1>
+  <div class="services__wrapper">
+      <!-- Foundation Installation -->
+      <div class="services__card">
+          <img src="images/Foundation Installation.jpg" alt="Foundation Installation">
+          <h2>Foundation Installation</h2>
+          <p>Foundation Installation</p>
+          <button class="services__btn"><a href="#contact-us">Book</a></button>
+      </div>  
+
+      <!-- Foundation Repair -->
+      <div class="services__card">
+            <img src="images/Foundation Repair.jpg" alt="Foundation Repair">
+            <h2>Foundation Repair</h2>
+            <p>Foundation Repair</p>
+            <button class="services__btn"><a href="#contact-us">Book</a></button>
+      </div>
+
+      <!-- Concrete Slab -->
+      <div class="services__card">
+          <img src="images/Concrete Slab.jpg" alt="Concrete Slab">
+          <h2>Concrete Slab</h2>
+          <p>Custom Concrete Slab</p>
+          <button class="services__btn"><a href="#contact-us">Book</a></button>
+      </div>
+
+      <!-- Driveway Installation -->
+      <div class="services__card">
+          <img src="images/Stamped Driveway.jpg" alt="Driveway Installation">
+          <h2>Driveway Installation</h2>
+          <p>Driveway Installation</p>
+          <button class="services__btn"><a href="#contact-us">Book</a></button>
+      </div>
+
+      <!-- Exterior Stone Work -->
+      <div class="services__card">
+          <img src="images/Home Stone.webp" alt="Residential Stone Work">
+          <h2>Residental Stone Work</h2>
+          <p>Residental Stone Work</p>
+          <button class="services__btn"><a href="#contact-us">Book</a></button>
+      </div>
+
+      <!-- Commercial Stone Work -->
+      <div class="services__card">
+          <img src="images/commercialstonework.webp" alt="Commercial Stone Work">
+          <h2>Commercial Stone Work</h2>
+          <p>Commercial Stone Work</p>
+          <button class="services__btn"><a href="#contact-us">Book</a></button>
+      </div>
+  </div>
+</div>
+
+<!-- Gallery Section -->
+<div class="gallery" id="gallery">
+  <div class="gallery__container">
+    <h2>Our Completed Projects</h2>
+    <div class="gallery__grid">
+      <div class="gallery__item">
+        <img src="images/IMG_1343.jpg" alt="Completed project 1">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1344.jpg" alt="Completed project 2">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1349.jpg" alt="Completed project 3">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1350.jpg" alt="Completed project 4">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1351.jpg" alt="Completed project 5">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1352.jpg" alt="Completed project 6">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1353.jpg" alt="Completed project 7">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1355.jpg" alt="Completed project 8">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1356.jpg" alt="Completed project 9">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1357.jpg" alt="Completed project 10">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1931.jpg" alt="Completed project 11">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1932.jpg" alt="Completed project 12">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1933.jpg" alt="Completed project 13">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1934.jpg" alt="Completed project 14">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1935.jpg" alt="Completed project 15">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1937.jpg" alt="Completed project 16">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1945.jpg" alt="Completed project 17">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1946.jpg" alt="Completed project 18">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1947.jpg" alt="Completed project 19">
+      </div>
+      <div class="gallery__item">
+        <img src="images/IMG_1953.jpg" alt="Completed project 20">
+      </div>
+      <div class="gallery__item">
+        <img src="images/BrickRepair.webp" alt="Completed project 21">
+      </div>
+      <div class="gallery__item">
+        <img src="images/commercialstonework.webp" alt="Completed project 22">
+      </div>
+      <div class="gallery__item">
+        <img src="images/Concrete Slab.webp" alt="Completed project 23">
+      </div>
+      <div class="gallery__item">
+        <img src="images/Flagstone.webp" alt="Completed project 24">
+      </div>
+    </div>
+  </div>
+</section>  
+
+  <!-- Contact Section (with the contact form and map) -->
+<div class="main" id="contact-us">
+  <div class="main__container">
+    <div class="main__content">
+      <h1>Get A Detailed Quote!</h1>
+      <form id="contact-form">
+        <!-- Name Input -->
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+        </div>
+
+        <!-- Email Input -->
+        <div class="form__group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+        </div>
+
+        <!-- Phone Input -->
+        <div class="form__group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" />
+        </div>
+
+        <!-- Address Input -->
+        <div class="form__group">
+          <label for="address">Address (Street, City, Zip Code)</label>
+          <input type="text" id="address" name="address" placeholder="Address" />
+        </div>
+
+        <!-- Date Picker -->
+        <div class="form__group">
+          <label for="appointment-date">Appointment Date</label>
+          <input type="date" id="appointment-date" name="appointment_date" required />
+        </div>
+
+        <!-- Time Picker -->
+        <div class="form__group">
+          <label for="appointment-time">Appointment Time</label>
+          <input type="time" id="appointment-time" name="appointment_time" required />
+        </div>
+
+        <!-- Message Input -->
+        <div class="form__group">
+          <label for="message">Let us know the details of what you are looking for, and we'll contact you with a quote.</label>
+          <textarea id="message" name="message" rows="4" placeholder="Details"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="form__btn">Send</button>
+      </form>
+
+        <div id="distance-result" style="display:none;">
+          <h3>Distance from Your Location to Our Office:</h3>
+          <p id="distance"></p>
+          <p id="duration"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- EmailJS Form Handling Script -->
+  <script type="text/javascript">
+    document.getElementById('appointment-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent traditional form submission
+
+      emailjs.sendForm('solismasonryconstruction', 'template_5xobz4l', this)
+        .then(function() {
+          alert('SUCCESS! Your appointment request has been sent.');
+        }, function(error) {
+          alert('FAILED... Please try again.' + JSON.stringify(error));
+        });
+    });
+  </script>
+
+  <!-- Bootstrap JS via CDN (for components like navbar, modals, etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+ 
+<!-- Footer Section -->
+<div class="footer__container">
+    <div class="footer__content">
+      <!-- Contact Information -->
+      <div class="footer__column">
+        <h4>Contact Information</h4>
+        <p><strong>Business Hours:</strong></p>
+        <p>Monday - Sunday: 7:00 AM - 6:00 PM</p>
+        <p><strong>Phone:</strong> <a href="tel:+19727602067">+1(972)750-2067</a></p>
+        <p><strong>Email:</strong> <a href="mailto:John.solis2357@gmail.com">John.solis2357@gmail.com</a></p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="footer__column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Facebook and Payment Methods -->
+      <div class="footer__column">
+        <h4>Follow Us on Facebook</h4>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100067453153007" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+        <div class="payment-methods">
+          <h4>Accepted Payment Methods</h4>
+          <p>Zelle, Check, or Cash</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bottom Section -->
+    <div class="footer__bottom">
+      <p class="website__rights">© Solis Masonry Construction Inc. 2024. All Rights Reserved.</p>
+      <p>Developed by John Solis, Student at The University of Texas at Dallas</p>
+      <a href="#" class="back-to-top">Back to Top</a>
+    </div>
+</div>
+  
+  <!-- Link to JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
+
